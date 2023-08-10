@@ -52,15 +52,23 @@
             flavor = "hold-preferred";
             hold-trigger-key-positions = <>;
         };
-        tapdance: tapdance {
+        tapPandX: tapPandX {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE";
+            label = "TAPPANDX";
             #binding-cells = <0>;
             bindings =
-                <&kp P>,
-                <&kp Q>;
+                <&kp PERIOD>,
+                <&kp EXCLAMATION>;
 
             tapping-term-ms = <200>;
+        };
+        tapQandA: tapQandA {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPQANDA";
+            #binding-cells = <0>;
+            bindings =
+                <&kp QUESTION>,
+                <&kp APOSTROPHE>;
         };
     };
 
