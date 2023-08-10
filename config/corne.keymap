@@ -67,8 +67,8 @@
             label = "TAPQANDA";
             #binding-cells = <0>;
             bindings =
-                <&kp QUESTION>,
-                <&kp APOSTROPHE>;
+                <&kp APOSTROPHE>,
+                <&kp QUESTION>;
         };
     };
 
