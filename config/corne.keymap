@@ -17,9 +17,19 @@
             key-positions = <9 10>;
         };
 
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+        return {
+            bindings = <&kp ENTER>;
+            key-positions = <21 22>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
         };
     };
 
