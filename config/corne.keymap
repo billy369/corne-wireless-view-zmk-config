@@ -14,27 +14,22 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 10>;
+            key-positions = <10 11>;
         };
 
         return {
             bindings = <&kp ENTER>;
-            key-positions = <21 22>;
+            key-positions = <22 23>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <13 14>;
-        };
-
-        WinTab {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <38 13 14>;
+            key-positions = <13 12>;
         };
     };
 
@@ -53,10 +48,10 @@
 
             label = "Base";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y  &kp U  &kp I      &kp O       &kp P          &none
-&none    &kp A  &kp S  &kp D           &kp F  &kp G        &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON  &kp APOSTROPHE
-&none    &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH      &none
-                       &kp LEFT_SHIFT  &mo 1  &kp SPACE    &none  &mo 2  &kp LCTRL
+&kp ESCAPE      &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y  &kp U  &kp I      &kp O       &kp P          &none
+&kp TAB         &kp A  &kp S  &kp D           &kp F  &kp G        &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH      &none
+                              &kp LEFT_SHIFT  &mo 1  &kp SPACE    &none  &mo 2  &kp LCTRL
             >;
         };
 
