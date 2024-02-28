@@ -108,14 +108,14 @@
         reinforce: Autocannon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &kp &kp &kp &kp &kp &kt LCTRL>;
+            bindings = <&kt LCTRL &kp UP_ARROW &kp DOWN &kp RIGHT &kp LEFT &kp UP_ARROW &kt LCTRL>;
             label = "AUTOCANNON";
         };
 
         Resupply: Autocannon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &kp &kp &kp &kp &kt LCTRL>;
+            bindings = <&kt LCTRL &kp DOWN &kp DOWN &kp UP_ARROW &kp RIGHT &kt LCTRL>;
             label = "AUTOCANNON";
         };
     };
