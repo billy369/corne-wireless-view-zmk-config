@@ -118,6 +118,34 @@
             bindings = <&kt LCTRL &kp DOWN &kp DOWN &kp UP_ARROW &kp RIGHT &kt LCTRL>;
             label = "RESUPPLY";
         };
+
+        Orbital_Laser: Orbital_Laser {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp RIGHT &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN &kt LCTRL>;
+            label = "ORBITAL_LASER";
+        };
+
+        Orbital_RailCannon_Strike: Orbital_RailCannon_Strike {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp RIGHT &kp UP_ARROW &kp DOWN &kp DOWN &kp RIGHT &kt LCTRL>;
+            label = "ORBITAL_RAILCANNON_STRIKE";
+        };
+
+        Eagle_Cluster_Bomb: Eagle_Cluster_Bomb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp DOWN &kp RIGHT &kt LCTRL>;
+            label = "EAGLE_CLUSTER_BOMB";
+        };
+
+        Eagle_500: Eagle_500 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp DOWN_ARROW &kp DOWN &kt LCTRL>;
+            label = "EAGLE_500";
+        };
     };
 
     keymap {
@@ -132,9 +160,9 @@
 
             label = "Base";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E           &kp R  &kp T        &Resupply               &reinforce   &Mortar_Sentry     &EMS_Mortar_Sentry  &AUTO_Cannon_Sentry  &Rocket_Sentry
-&kp TAB         &kp A  &kp S  &kp D           &kp F  &kp G        &Sheild_Generator_Pack  &Supply_pak  &Grenade_Launcher  &Rail_Gun           &Autocannon          &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &reinforce              &kp M        &kp PERIOD         &kp PERIOD          &kp SLASH            &none
+&kp ESCAPE      &kp Q  &kp W  &kp E           &kp R  &kp T        &Resupply               &Autocannon  &Mortar_Sentry     &EMS_Mortar_Sentry  &AUTO_Cannon_Sentry         &Rocket_Sentry
+&kp TAB         &kp A  &kp S  &kp D           &kp F  &kp G        &Sheild_Generator_Pack  &Supply_pak  &Grenade_Launcher  &Rail_Gun           &Orbital_RailCannon_Strike  &Eagle_Cluster_Bomb
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &reinforce              &kp M        &kp PERIOD         &kp PERIOD          &Orbital_RailCannon_Strike  &none
                               &kp LEFT_SHIFT  &mo 1  &kp SPACE    &none                   &mo 2        &kp LCTRL
             >;
         };
