@@ -134,7 +134,7 @@
             bindings = <
 &kp ESCAPE      &kp Q  &kp W  &kp E           &kp R  &kp T        &Resupply               &reinforce   &Mortar_Sentry     &EMS_Mortar_Sentry  &AUTO_Cannon_Sentry  &Rocket_Sentry
 &kp TAB         &kp A  &kp S  &kp D           &kp F  &kp G        &Sheild_Generator_Pack  &Supply_pak  &Grenade_Launcher  &Rail_Gun           &Autocannon          &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &reinforce              &kp M        &kp COMMA          &kp PERIOD          &kp SLASH            &none
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V  &kp B        &reinforce              &kp M        &kp PERIOD         &kp PERIOD          &kp SLASH            &none
                               &kp LEFT_SHIFT  &mo 1  &kp SPACE    &none                   &mo 2        &kp LCTRL
             >;
         };
