@@ -33,7 +33,62 @@
         };
     };
 
-    behaviors {
+    macros {
+        EMS_Mortar_Sentry: EMS_Mortar_Sentry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN &kp RIGHT>;
+            label = "EMS_MORTAR_SENTRY";
+        };
+
+        Rocket_Sentry: Rocket_Sentry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp LEFT_ARROW>;
+            label = "ROCKET_SENTRY";
+        };
+
+        AUTO_Cannon_Sentry: AUTO_Cannon_Sentry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kp UP_ARROW>;
+            label = "AUTO_CANNON_SENTRY";
+        };
+
+        Mortar_Sentry: Mortar_Sentry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp DOWN>;
+            label = "MORTAR_SENTRY";
+        };
+
+        Sheild_Generator_Pack: Sheild_Generator_Pack {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp LEFT &kp RIGHT>;
+            label = "SHEILD_GENERATOR_PACK";
+        };
+
+        Supply_pack: Supply_pack {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp DOWN_ARROW>;
+            label = "SUPPLY_PACK";
+        };
+
+        Grenade_Launcher: Grenade_Launcher {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp LEFT &kp UP_ARROW &kp LEFT &kp DOWN>;
+            label = "GRENADE_LAUNCHER";
+        };
+
+        Supply_pak: Supply_pak {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp DOWN>;
+            label = "SUPPLY_PAK";
+        };
     };
 
     keymap {
