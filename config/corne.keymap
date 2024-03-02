@@ -165,7 +165,7 @@
         Guard_dog: Guard_dog {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp RIGHT &kp DOWN &kt LCTRL>;
+            bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp LEFT &kp UP_ARROW &kp RIGHT &kp RIGHT &kt LCTRL>;
             label = "GUARD_DOG";
         };
     };
