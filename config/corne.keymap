@@ -147,6 +147,27 @@
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp DOWN_ARROW &kp DOWN &kt LCTRL>;
             label = "EAGLE_500";
         };
+
+        Eagle_Airstrike: Eagle_Airstrike {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp RIGHT &kt LCTRL>;
+            label = "EAGLE_AIRSTRIKE";
+        };
+
+        Stalwart: Stalwart {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp LEFT &kt LCTRL>;
+            label = "STALWART";
+        };
+
+        Guard_dog: Guard_dog {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp RIGHT &kp DOWN &kt LCTRL>;
+            label = "GUARD_DOG";
+        };
     };
 
     keymap {
@@ -163,7 +184,7 @@
             bindings = <
 &kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T        &Resupply               &Autocannon  &Mortar_Sentry     &EMS_Mortar_Sentry  &AUTO_Cannon_Sentry         &Rocket_Sentry
 &kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G        &Sheild_Generator_Pack  &Supply_pak  &Grenade_Launcher  &Rail_Gun           &Orbital_Laser              &Eagle_Cluster_Bomb
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B        &reinforce              &kp M        &kp PERIOD         &kp PERIOD          &Orbital_RailCannon_Strike  &none
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B        &reinforce              &Guard_dog   &Stalwart          &Eagle_Airstrike    &Orbital_RailCannon_Strike  &Eagle_500
                               &kp LCTRL  &mo 1  &kp SPACE    &kp ENTER               &mo 2        &kp RIGHT_ALT
             >;
         };
