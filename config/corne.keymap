@@ -210,6 +210,13 @@
             bindings = <&kt LCTRL &kp LEFT &kp DOWN &kp RIGHT &kp UP_ARROW &kp LEFT &kp DOWN_ARROW &kp DOWN_ARROW &kt LCTRL>;
             label = "MECH";
         };
+
+        Orbital_380mm_HE: Orbital_380mm_HE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &kp RIGHT &kp DOWN_ARROW &kp UP_ARROW &kp UP_ARROW &kp LEFT &kp DOWN &kp DOWN_ARROW &kt LCTRL>;
+            label = "ORBITAL_380MM_HE";
+        };
     };
 
     keymap {
@@ -224,9 +231,9 @@
 
             label = "Base";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T        &Resupply               &Arc_Thrower  &Orbital_Laser  &Orbital_EMS      &Eagle_RocketPods  &Eagle_Napalm
-&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G        &Sheild_Generator_Pack  &Jet_Pack     &Guard_dog      &Rail_Gun         &Mech              &Eagle_500
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B        &reinforce              &Guard_dog    &Stalwart       &Eagle_Airstrike  &Orbital_Laser     &Eagle_500
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T        &Resupply               &Arc_Thrower  &Orbital_Laser     &Orbital_EMS      &Eagle_RocketPods  &Eagle_Napalm
+&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G        &Sheild_Generator_Pack  &Jet_Pack     &Guard_dog         &Rail_Gun         &Mech              &Eagle_500
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B        &reinforce              &Autocannon   &Orbital_380mm_HE  &Eagle_Airstrike  &Orbital_Laser     &Eagle_500
                               &kp LCTRL  &mo 1  &kp SPACE    &Jet_Pack               &Jet_Pack     &Arc_Thrower
             >;
         };
