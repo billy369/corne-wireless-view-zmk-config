@@ -40,7 +40,8 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN &kp RIGHT &kt LCTRL>;
             label = "EMS_MORTAR_SENTRY";
-            wait-ms = <0>;
+            wait-ms = <1000>;
+            tap-ms = <0>;
         };
 
         Rocket_Sentry: Rocket_Sentry {
@@ -202,6 +203,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kt LCTRL>;
             label = "EAGLE_ROCKETPODS";
+            tap-ms = <100>;
         };
 
         Mech: Mech {
@@ -209,6 +211,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp LEFT &kp DOWN &kp RIGHT &kp UP_ARROW &kp LEFT &kp DOWN_ARROW &kp DOWN_ARROW &kt LCTRL>;
             label = "MECH";
+            tap-ms = <1000>;
         };
 
         Orbital_380mm_HE: Orbital_380mm_HE {
@@ -223,6 +226,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kp RIGHT &kt LCTRL>;
             label = "TESLA_TOWER";
+            wait-ms = <100>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
@@ -230,6 +234,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp RIGHT &kt LCTRL>;
             label = "EAGLE_STRAFFING";
+            wait-ms = <1000>;
         };
     };
 
