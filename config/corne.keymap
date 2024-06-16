@@ -522,15 +522,15 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp DOWN_ARROW>,
-                <&macro_tap_time 500>,
+                <&macro_wait_time 500>,
                 <&kp UP_ARROW>,
-                <&macro_tap_time 500>,
+                <&macro_wait_time 500>,
                 <&kp RIGHT>,
-                <&macro_tap_time 500>,
+                <&macro_wait_time 500>,
                 <&kp UP_ARROW>,
-                <&macro_tap_time 500>,
+                <&macro_wait_time 500>,
                 <&kp LEFT>,
-                <&macro_tap_time 500>,
+                <&macro_wait_time 500>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "TESLA_TOWER";
