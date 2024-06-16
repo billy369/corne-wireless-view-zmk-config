@@ -521,17 +521,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN_ARROW>,
+                <&kp LC(DOWN_ARROW)>,
                 <&macro_wait_time 500>,
-                <&kp UP_ARROW>,
+                <&kp LC(UP_ARROW)>,
                 <&macro_wait_time 500>,
-                <&kp RIGHT>,
+                <&kp LC(RIGHT)>,
                 <&macro_wait_time 500>,
-                <&kp UP_ARROW>,
+                <&kp LC(UP_ARROW)>,
                 <&macro_wait_time 500>,
-                <&kp LEFT>,
+                <&kp LC(LEFT)>,
                 <&macro_wait_time 500>,
-                <&kp RIGHT &kt LCTRL>;
+                <&kp LC(RIGHT)>;
 
             label = "TESLA_TOWER";
             tap-ms = <1000>;
@@ -541,11 +541,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp UP_ARROW>,
+                <&kp LC(UP_ARROW)>,
                 <&macro_wait_time 10000>,
-                <&kp RIGHT>,
+                <&kp LC(RIGHT)>,
                 <&macro_wait_time 10000>,
-                <&kp RIGHT &kt LCTRL>;
+                <&kp LC(RIGHT)>;
 
             label = "EAGLE_STRAFFING";
             tap-ms = <10000>;
