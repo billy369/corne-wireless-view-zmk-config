@@ -542,14 +542,14 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp UP_ARROW>,
-                <&macro_wait_time 500>,
+                <&macro_wait_time 10000>,
                 <&kp RIGHT>,
                 <&macro_wait_time 500>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_STRAFFING";
-            tap-ms = <500>;
-            wait-ms = <500>;
+            tap-ms = <10000>;
+            wait-ms = <10000>;
         };
     };
 
