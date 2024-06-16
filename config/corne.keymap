@@ -540,8 +540,8 @@
                 <&kp LCTRL>;
 
             label = "TESLA_TOWER";
-            tap-ms = <1000>;
-            wait-ms = <1000>;
+            tap-ms = <10000>;
+            wait-ms = <10000>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
