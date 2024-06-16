@@ -544,7 +544,7 @@
                 <&kt LCTRL &kp UP_ARROW>,
                 <&macro_wait_time 10000>,
                 <&kp RIGHT>,
-                <&macro_wait_time 500>,
+                <&macro_wait_time 10000>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_STRAFFING";
