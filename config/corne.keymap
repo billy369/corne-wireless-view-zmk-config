@@ -40,13 +40,13 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp DOWN>,
-                <&macro_tap>,
+                <&macro_tap_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_tap>,
+                <&macro_tap_time 100>,
                 <&kp RIGHT>,
-                <&macro_tap>,
+                <&macro_tap_time 100>,
                 <&kp DOWN>,
-                <&macro_tap>,
+                <&macro_tap_time 100>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EMS_MORTAR_SENTRY";
@@ -60,11 +60,11 @@
                 <&kt LCTRL &kp DOWN>,
                 <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_tap_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
+                <&macro_tap_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
+                <&macro_tap_time 100>,
                 <&kp LEFT_ARROW &kt LCTRL>;
 
             label = "ROCKET_SENTRY";
