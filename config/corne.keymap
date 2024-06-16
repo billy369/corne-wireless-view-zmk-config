@@ -520,36 +520,16 @@
         Tesla_Tower: Tesla_Tower {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(DOWN_ARROW)>,
-                <&macro_wait_time 500>,
-                <&kp LC(UP_ARROW)>,
-                <&macro_wait_time 500>,
-                <&kp LC(RIGHT)>,
-                <&macro_wait_time 500>,
-                <&kp LC(UP_ARROW)>,
-                <&macro_wait_time 500>,
-                <&kp LC(LEFT)>,
-                <&macro_wait_time 500>,
-                <&kp LC(RIGHT)>;
-
+            bindings = <&kp LC(DOWN_ARROW) &kp LC(UP_ARROW) &kp LC(RIGHT) &kp LC(UP_ARROW) &kp LC(LEFT) &kp LC(RIGHT)>;
             label = "TESLA_TOWER";
-            tap-ms = <1000>;
+            tap-ms = <0>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(UP_ARROW)>,
-                <&macro_wait_time 10000>,
-                <&kp LC(RIGHT)>,
-                <&macro_wait_time 10000>,
-                <&kp LC(RIGHT)>;
-
+            bindings = <&kp LC(UP_ARROW) &kp LC(RIGHT) &kp LC(RIGHT)>;
             label = "EAGLE_STRAFFING";
-            tap-ms = <10000>;
-            wait-ms = <10000>;
         };
     };
 
