@@ -156,11 +156,11 @@
                 <&kt LCTRL &kp DOWN>,
                 <&macro_tap_time 500>,
                 <&kp LEFT>,
-                <&macro_press>,
+                <&macro_tap_time 500>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_tap_time 500>,
                 <&kp LEFT>,
-                <&macro_press>,
+                <&macro_tap_time 500>,
                 <&kp DOWN &kt LCTRL>;
 
             label = "GRENADE_LAUNCHER";
