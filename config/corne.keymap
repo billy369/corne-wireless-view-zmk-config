@@ -40,7 +40,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN &kp RIGHT &kt LCTRL>;
             label = "EMS_MORTAR_SENTRY";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Rocket_Sentry: Rocket_Sentry {
@@ -48,7 +48,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp LEFT_ARROW &kt LCTRL>;
             label = "ROCKET_SENTRY";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         AUTO_Cannon_Sentry: AUTO_Cannon_Sentry {
@@ -56,7 +56,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kp UP_ARROW &kt LCTRL>;
             label = "AUTO_CANNON_SENTRY";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Mortar_Sentry: Mortar_Sentry {
@@ -64,7 +64,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp RIGHT &kp RIGHT &kp DOWN &kt LCTRL>;
             label = "MORTAR_SENTRY";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Sheild_Generator_Pack: Sheild_Generator_Pack {
@@ -72,7 +72,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kp LEFT &kp RIGHT &kt LCTRL>;
             label = "SHEILD_GENERATOR_PACK";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Supply_pack: Supply_pack {
@@ -80,7 +80,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp DOWN_ARROW &kt LCTRL>;
             label = "SUPPLY_PACK";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Grenade_Launcher: Grenade_Launcher {
@@ -88,7 +88,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp UP_ARROW &kp LEFT &kp DOWN &kt LCTRL>;
             label = "GRENADE_LAUNCHER";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Supply_pak: Supply_pak {
@@ -96,7 +96,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp DOWN &kt LCTRL>;
             label = "SUPPLY_PAK";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Rail_Gun: Rail_Gun {
@@ -104,7 +104,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp RIGHT &kp DOWN &kp UP_ARROW &kp LEFT &kp RIGHT &kt LCTRL>;
             label = "RAIL_GUN";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Autocannon: Autocannon {
@@ -112,7 +112,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp RIGHT &kt LCTRL>;
             label = "AUTOCANNON";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         reinforce: reinforce {
@@ -120,7 +120,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp DOWN &kp RIGHT &kp LEFT &kp UP_ARROW &kt LCTRL>;
             label = "REINFORCE";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Resupply: Resupply {
@@ -128,7 +128,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp DOWN &kp UP_ARROW &kp RIGHT &kt LCTRL>;
             label = "RESUPPLY";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Orbital_Laser: Orbital_Laser {
@@ -136,7 +136,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp RIGHT &kp DOWN &kp UP_ARROW &kp RIGHT &kp DOWN &kt LCTRL>;
             label = "ORBITAL_LASER";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Orbital_RailCannon_Strike: Orbital_RailCannon_Strike {
@@ -144,7 +144,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp RIGHT &kp UP_ARROW &kp DOWN &kp DOWN &kp RIGHT &kt LCTRL>;
             label = "ORBITAL_RAILCANNON_STRIKE";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_Cluster_Bomb: Eagle_Cluster_Bomb {
@@ -152,7 +152,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp DOWN &kp RIGHT &kt LCTRL>;
             label = "EAGLE_CLUSTER_BOMB";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_500: Eagle_500 {
@@ -160,7 +160,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp DOWN &kp DOWN_ARROW &kp DOWN &kt LCTRL>;
             label = "EAGLE_500";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_Airstrike: Eagle_Airstrike {
@@ -176,7 +176,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp LEFT &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp LEFT &kt LCTRL>;
             label = "STALWART";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Guard_dog: Guard_dog {
@@ -184,7 +184,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp LEFT &kp UP_ARROW &kp RIGHT &kp RIGHT &kt LCTRL>;
             label = "GUARD_DOG";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Arc_Thrower: Arc_Thrower {
@@ -192,7 +192,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp RIGHT &kp DOWN &kp UP_ARROW &kp LEFT &kp LEFT &kt LCTRL>;
             label = "ARC_THROWER";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Jet_Pack: Jet_Pack {
@@ -200,7 +200,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN &kp UP_ARROW &kp UP_ARROW &kp DOWN &kp UP_ARROW &kt LCTRL>;
             label = "JET_PACK";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_Napalm: Eagle_Napalm {
@@ -208,7 +208,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp RIGHT &kt LCTRL>;
             label = "EAGLE_NAPALM";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Orbital_EMS: Orbital_EMS {
@@ -216,7 +216,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp RIGHT &kp RIGHT &kp LEFT &kp DOWN &kt LCTRL>;
             label = "ORBITAL_EMS";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_RocketPods: Eagle_RocketPods {
@@ -224,7 +224,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kt LCTRL>;
             label = "EAGLE_ROCKETPODS";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Mech: Mech {
@@ -232,7 +232,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp LEFT &kp DOWN &kp RIGHT &kp UP_ARROW &kp LEFT &kp DOWN_ARROW &kp DOWN_ARROW &kt LCTRL>;
             label = "MECH";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Orbital_380mm_HE: Orbital_380mm_HE {
@@ -240,7 +240,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp RIGHT &kp DOWN_ARROW &kp UP_ARROW &kp UP_ARROW &kp LEFT &kp DOWN &kp DOWN_ARROW &kt LCTRL>;
             label = "ORBITAL_380MM_HE";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Tesla_Tower: Tesla_Tower {
@@ -248,7 +248,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT &kp UP_ARROW &kp LEFT &kp RIGHT &kt LCTRL>;
             label = "TESLA_TOWER";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
@@ -256,7 +256,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &kp UP_ARROW &kp RIGHT &kp RIGHT &kt LCTRL>;
             label = "EAGLE_STRAFFING";
-            tap-ms = <100>;
+            tap-ms = <1000>;
         };
     };
 
