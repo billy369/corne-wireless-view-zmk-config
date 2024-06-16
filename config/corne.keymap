@@ -511,7 +511,8 @@
                 <&macro_press>,
                 <&kp DOWN>,
                 <&macro_press>,
-                <&kp DOWN_ARROW &kt LCTRL>;
+                <&kp DOWN_ARROW &kt LCTRL>,
+                <&macro_tap>;
 
             label = "ORBITAL_380MM_HE";
             tap-ms = <1000>;
@@ -520,15 +521,22 @@
         Tesla_Tower: Tesla_Tower {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(DOWN_ARROW) &kp LC(UP_ARROW) &kp LC(RIGHT) &kp LC(UP_ARROW) &kp LC(LEFT) &kp LC(RIGHT)>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp RIGHT &kp DOWN_ARROW &kp UP_ARROW &kp UP_ARROW &kp LEFT &kp RIGHT>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
             label = "TESLA_TOWER";
-            tap-ms = <0>;
+            tap-ms = <1000>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(UP_ARROW) &kp LC(RIGHT) &kp LC(RIGHT)>;
+            bindings = <&kp UP_ARROW &kp LC(RIGHT) &kp LC(RIGHT)>;
             label = "EAGLE_STRAFFING";
         };
     };
