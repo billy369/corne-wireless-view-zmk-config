@@ -522,15 +522,15 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp DOWN_ARROW>,
-                <&macro_tap_time 1000>,
+                <&macro_tap_time 500>,
                 <&kp UP_ARROW>,
-                <&macro_tap_time 1000>,
+                <&macro_tap_time 500>,
                 <&kp RIGHT>,
-                <&macro_tap_time 1000>,
+                <&macro_tap_time 500>,
                 <&kp UP_ARROW>,
-                <&macro_tap_time 1000>,
+                <&macro_tap_time 500>,
                 <&kp LEFT>,
-                <&macro_tap_time 1000>,
+                <&macro_tap_time 500>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "TESLA_TOWER";
@@ -542,9 +542,9 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp UP_ARROW>,
-                <&macro_tap_time 100>,
+                <&macro_wait_time 500>,
                 <&kp RIGHT>,
-                <&macro_tap_time 100>,
+                <&macro_wait_time 500>,
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_STRAFFING";
