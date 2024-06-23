@@ -524,6 +524,7 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
+                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp DOWN_ARROW>,
                 <&macro_wait_time 100>,
