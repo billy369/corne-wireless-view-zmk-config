@@ -40,7 +40,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kt LCTRL &kp DOWN>,
-                <&macro_tap_time 100>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
                 <&macro_tap_time 100>,
                 <&kp RIGHT>,
@@ -526,22 +526,22 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp DOWN_ARROW>,
-                <&macro_wait_time 1000>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_wait_time 1000>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_wait_time 1000>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_wait_time 1000>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_wait_time 1000>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL>;
 
             label = "TESLA_TOWER";
-            tap-ms = <10000>;
-            wait-ms = <10000>;
+            tap-ms = <1>;
+            wait-ms = <1>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
