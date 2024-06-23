@@ -50,7 +50,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EMS_MORTAR_SENTRY";
-            tap-ms = <1000>;
         };
 
         Rocket_Sentry: Rocket_Sentry {
@@ -68,7 +67,6 @@
                 <&kp LEFT_ARROW &kt LCTRL>;
 
             label = "ROCKET_SENTRY";
-            tap-ms = <1000>;
         };
 
         AUTO_Cannon_Sentry: AUTO_Cannon_Sentry {
@@ -88,7 +86,6 @@
                 <&kp UP_ARROW &kt LCTRL>;
 
             label = "AUTO_CANNON_SENTRY";
-            tap-ms = <1000>;
         };
 
         Mortar_Sentry: Mortar_Sentry {
@@ -106,7 +103,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "MORTAR_SENTRY";
-            tap-ms = <1000>;
         };
 
         Sheild_Generator_Pack: Sheild_Generator_Pack {
@@ -126,7 +122,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "SHEILD_GENERATOR_PACK";
-            tap-ms = <1000>;
         };
 
         Supply_pack: Supply_pack {
@@ -146,7 +141,6 @@
                 <&kp DOWN_ARROW &kt LCTRL>;
 
             label = "SUPPLY_PACK";
-            tap-ms = <1000>;
         };
 
         Grenade_Launcher: Grenade_Launcher {
@@ -164,7 +158,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "GRENADE_LAUNCHER";
-            tap-ms = <1000>;
         };
 
         Supply_pak: Supply_pak {
@@ -184,7 +177,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "SUPPLY_PAK";
-            tap-ms = <1000>;
         };
 
         Rail_Gun: Rail_Gun {
@@ -204,7 +196,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "RAIL_GUN";
-            tap-ms = <1000>;
         };
 
         Autocannon: Autocannon {
@@ -224,7 +215,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "AUTOCANNON";
-            tap-ms = <1000>;
         };
 
         reinforce: reinforce {
@@ -242,7 +232,6 @@
                 <&kp UP_ARROW &kt LCTRL>;
 
             label = "REINFORCE";
-            tap-ms = <1000>;
         };
 
         Resupply: Resupply {
@@ -258,7 +247,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "RESUPPLY";
-            tap-ms = <1000>;
         };
 
         Orbital_Laser: Orbital_Laser {
@@ -276,7 +264,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "ORBITAL_LASER";
-            tap-ms = <1000>;
         };
 
         Orbital_RailCannon_Strike: Orbital_RailCannon_Strike {
@@ -294,7 +281,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "ORBITAL_RAILCANNON_STRIKE";
-            tap-ms = <1000>;
         };
 
         Eagle_Cluster_Bomb: Eagle_Cluster_Bomb {
@@ -312,7 +298,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_CLUSTER_BOMB";
-            tap-ms = <1000>;
         };
 
         Eagle_500: Eagle_500 {
@@ -330,7 +315,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "EAGLE_500";
-            tap-ms = <1000>;
         };
 
         Eagle_Airstrike: Eagle_Airstrike {
@@ -346,7 +330,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_AIRSTRIKE";
-            tap-ms = <100>;
         };
 
         Stalwart: Stalwart {
@@ -366,7 +349,6 @@
                 <&kp LEFT &kt LCTRL>;
 
             label = "STALWART";
-            tap-ms = <1000>;
         };
 
         Guard_dog: Guard_dog {
@@ -386,7 +368,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "GUARD_DOG";
-            tap-ms = <1000>;
         };
 
         Arc_Thrower: Arc_Thrower {
@@ -406,7 +387,6 @@
                 <&kp LEFT &kt LCTRL>;
 
             label = "ARC_THROWER";
-            tap-ms = <1000>;
         };
 
         Jet_Pack: Jet_Pack {
@@ -424,7 +404,6 @@
                 <&kp UP_ARROW &kt LCTRL>;
 
             label = "JET_PACK";
-            tap-ms = <1000>;
         };
 
         Eagle_Napalm: Eagle_Napalm {
@@ -438,7 +417,6 @@
                 <&kp RIGHT &kt LCTRL>;
 
             label = "EAGLE_NAPALM";
-            tap-ms = <1000>;
         };
 
         Orbital_EMS: Orbital_EMS {
@@ -454,7 +432,6 @@
                 <&kp DOWN &kt LCTRL>;
 
             label = "ORBITAL_EMS";
-            tap-ms = <1000>;
         };
 
         Eagle_RocketPods: Eagle_RocketPods {
@@ -470,7 +447,6 @@
                 <&kp LEFT &kt LCTRL>;
 
             label = "EAGLE_ROCKETPODS";
-            tap-ms = <1000>;
         };
 
         Mech: Mech {
@@ -492,7 +468,6 @@
                 <&kp DOWN_ARROW &kt LCTRL>;
 
             label = "MECH";
-            tap-ms = <1000>;
         };
 
         Orbital_380mm_HE: Orbital_380mm_HE {
@@ -515,7 +490,6 @@
                 <&macro_tap>;
 
             label = "ORBITAL_380MM_HE";
-            tap-ms = <1000>;
         };
 
         Tesla_Tower: Tesla_Tower {
@@ -524,25 +498,22 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_wait_time 100000>,
                 <&macro_tap>,
                 <&kp DOWN_ARROW>,
-                <&macro_wait_time 100000>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_wait_time 100000>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_wait_time 100000>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_wait_time 100000>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_wait_time 100000>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL>;
 
             label = "TESLA_TOWER";
-            tap-ms = <100000>;
-            wait-ms = <100000>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
