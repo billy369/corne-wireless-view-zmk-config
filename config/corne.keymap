@@ -238,13 +238,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN>,
-                <&macro_tap_time 100>,
+                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp DOWN>,
-                <&macro_tap_time 100>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_tap_time 100>,
-                <&kp RIGHT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp RIGHT &kt LCTRL>,
+                <&macro_release>;
 
             label = "RESUPPLY";
         };
@@ -374,17 +378,22 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN>,
                 <&macro_press>,
-                <&kp RIGHT>,
-                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp DOWN>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_press>,
-                <&kp LEFT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "ARC_THROWER";
         };
@@ -474,20 +483,24 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp RIGHT>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
                 <&kp DOWN_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp DOWN>,
-                <&macro_press>,
-                <&kp DOWN_ARROW &kt LCTRL>,
-                <&macro_tap>;
+                <&macro_wait_time 100>,
+                <&kp DOWN_ARROW>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "ORBITAL_380MM_HE";
         };
