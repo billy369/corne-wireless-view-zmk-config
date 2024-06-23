@@ -308,15 +308,20 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp UP_ARROW>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp DOWN>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp DOWN_ARROW>,
-                <&macro_press>,
-                <&kp DOWN &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "EAGLE_500";
         };
@@ -325,13 +330,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp UP_ARROW>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp DOWN>,
-                <&macro_press>,
-                <&kp RIGHT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "EAGLE_AIRSTRIKE";
         };
@@ -340,17 +350,22 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN>,
                 <&macro_press>,
-                <&kp LEFT>,
-                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp DOWN>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
+                <&kp LEFT>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
-                <&kp LEFT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "STALWART";
         };
@@ -359,17 +374,22 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
-                <&kp RIGHT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "GUARD_DOG";
         };
@@ -402,15 +422,20 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp DOWN>,
                 <&macro_press>,
-                <&kp UP_ARROW>,
-                <&macro_press>,
-                <&kp UP_ARROW>,
-                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp DOWN>,
-                <&macro_press>,
-                <&kp UP_ARROW &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "JET_PACK";
         };
@@ -419,11 +444,16 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp UP_ARROW>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
                 <&kp RIGHT>,
-                <&macro_press>,
-                <&kp RIGHT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "EAGLE_NAPALM";
         };
@@ -432,13 +462,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp RIGHT>,
                 <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp RIGHT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
                 <&kp LEFT>,
-                <&macro_press>,
-                <&kp DOWN &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "ORBITAL_EMS";
         };
@@ -447,13 +482,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp UP_ARROW>,
                 <&macro_press>,
-                <&kp RIGHT>,
-                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp UP_ARROW>,
-                <&macro_press>,
-                <&kp LEFT &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp LEFT>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "EAGLE_ROCKETPODS";
         };
@@ -462,19 +502,24 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kt LCTRL &kp LEFT>,
                 <&macro_press>,
-                <&kp DOWN>,
-                <&macro_press>,
-                <&kp RIGHT>,
-                <&macro_press>,
-                <&kp UP_ARROW>,
-                <&macro_press>,
+                <&kt LCTRL>,
+                <&macro_tap>,
                 <&kp LEFT>,
-                <&macro_press>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp LEFT>,
+                <&macro_wait_time 100>,
                 <&kp DOWN_ARROW>,
-                <&macro_press>,
-                <&kp DOWN_ARROW &kt LCTRL>;
+                <&macro_wait_time 100>,
+                <&kp DOWN_ARROW>,
+                <&macro_release>,
+                <&kt LCTRL>;
 
             label = "MECH";
         };
@@ -532,7 +577,18 @@
         Eagle_Straffing: Eagle_Straffing {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp UP_ARROW &kp LC(RIGHT) &kp LC(RIGHT)>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
             label = "EAGLE_STRAFFING";
         };
     };
