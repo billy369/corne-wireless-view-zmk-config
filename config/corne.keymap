@@ -542,7 +542,7 @@
 
             label = "TESLA_TOWER";
             tap-ms = <1>;
-            wait-ms = <1>;
+            wait-ms = <100>;
         };
 
         Eagle_Straffing: Eagle_Straffing {
