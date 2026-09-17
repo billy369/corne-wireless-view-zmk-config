@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -30,6 +31,36 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <13 12>;
+        };
+
+        mouseleft {
+            bindings = <&mmv MOVE_LEFT>;
+            key-positions = <14 11>;
+        };
+
+        mousedown {
+            bindings = <&mmv MOVE_DOWN>;
+            key-positions = <11 15>;
+        };
+
+        mouseright {
+            bindings = <&mmv MOVE_RIGHT>;
+            key-positions = <16 11>;
+        };
+
+        mouseup {
+            bindings = <&mmv MOVE_UP>;
+            key-positions = <11 17>;
+        };
+
+        ouserightclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <11 29>;
+        };
+
+        mouseleftclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <11 28>;
         };
     };
 
@@ -81,6 +112,15 @@
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
